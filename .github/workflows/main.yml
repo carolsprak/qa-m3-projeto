@@ -27,6 +27,4 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: '18.x'
-
-    - name: Test Jest
-      run: npm test
+    - run: npm test
