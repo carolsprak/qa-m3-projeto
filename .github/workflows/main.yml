@@ -42,4 +42,4 @@ jobs:
         with:
           node-version: '18.x'    
       - run: npm ci
-      - run: npm testc
+      - run: npm jest --coverage
