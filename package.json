@@ -2,26 +2,25 @@
   "name": "qa-m3-ultima",
   "version": "1.0.0",
   "description": "Aula Ultima School QA - Módulo 3",
-  "main": "index.js",  
-  
+  "main": "index.js",
   "scripts": {
     "test": "jest", 
     "testc": "jest --coverage" 
   },
-  
+  "keywords": [
+    "jest"
+  ],
   "author": "Insprak",
   "license": "MIT",
-  
   "devDependencies": {
-    "jest": "^29.4.3",
+    "jest": "^28.1.2",
     "jest-html-reporter": "^3.5.0"
-  }
+  },
   "jest": { 
     "reporters": 
     [ "default",
     [ "./node_modules/jest-html-reporter", { "pageTitle": "Test Report" }]
                 ]
           } 
+  
 }
-
-
