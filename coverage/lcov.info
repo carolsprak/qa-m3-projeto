@@ -1,10 +1,10 @@
 TN:
-SF:sum.js
+SF:src/sum.js
 FN:1,sum
 FNF:1
 FNH:1
-FNDA:3,sum
-DA:2,3
+FNDA:7,sum
+DA:2,7
 DA:4,1
 LF:2
 LH:2

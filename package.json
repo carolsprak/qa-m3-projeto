@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest", 
-    "testc": "jest --coverage" 
+    "testc": "test -- --coverage" 
   },
   "keywords": [
     "jest"
